@@ -73,7 +73,7 @@ twitch-videoad.js text/javascript
                 if (e.data.key == 'UboShowAdBanner') {
                     var adDiv = getAdDiv();
                     if (adDiv != null) {
-                        adDiv.P.textContent = 'Blocking' + (e.data.isMidroll ? ' midroll' : '') + ' ads';
+                        adDiv.P.textContent = 'TEST';
                         if (OPT_SHOW_AD_BANNER) {
                             adDiv.style.display = 'block';
                         }
